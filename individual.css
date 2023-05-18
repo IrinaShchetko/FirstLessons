@@ -1,0 +1,10 @@
+.container {
+    background-color: rgb(163, 184, 10);
+    width: 459px;
+}
+.container-text {
+    padding: 50px;
+    outline: 3px solid white;
+    outline-offset: -30px;
+
+}
