@@ -1,0 +1,12 @@
+ol {
+    counter-reset: group;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+    counter-increment: group;
+    content: "animal-" counters(group, "/") " : ";
+}
